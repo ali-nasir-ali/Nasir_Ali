@@ -19,11 +19,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
-
+    
 </head>
 
-<body>
+<body id="body">
  
 
     <!--  ======================= Start Header Area ============================== -->
@@ -62,9 +61,21 @@
                             <a class="nav-link" href="#Contact">contact</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="https://github.com/anasir514"><i
+                            <a class="nav-link" href="https://github.com/anasir514" ><i
                                     class="fa fa-github fa-2x"></i></a>
                         </li>
+
+
+                          <!--     light/dark mode container -->
+                          <li class="nav-item ">
+                          <div class="wrapper-color-switch nav-link" >
+                            <input type="checkbox" id="input-color-switch">
+                            <label for="input-color-switch" class="color-switch">
+                              <div class="color-switch-toggle"></div>
+                            </label>
+                          </div>
+                        </li>
+
 
 
                     </ul>
@@ -641,11 +652,41 @@
 
     <!--  custom and Bootstrap js file  -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
+    
+
+    <script>
+    
+//create a variable to monitor the input checkbox
+const colorSwitch = document.getElementById("input-color-switch");
+
+//when the input is clicked verify the state of the checkbox
+colorSwitch.addEventListener("click", checkMode);
+
+//1. see which state the checkbox is in
+//2. if it is checked enable the dark mode by adding the class
+//3. if it is not checked remove dark mode by removing the class
+function checkMode() {
+  console.log("checking...");
+  if (colorSwitch.checked) {
+    console.log("dark on");
+    darkModeOn();
+  } else {
+    console.log("dark off");
+    darkModeOff();
+  }
+}
+
+function darkModeOn() {
+  document.body.classList.add("dark-mode");
+}
+
+function darkModeOff() {
+  document.body.classList.remove("dark-mode");
+}
 
 
+    
+    </script>
 
 </body>
 
