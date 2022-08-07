@@ -91,28 +91,41 @@
     <!--  ======================= Start Main Area ================================ -->
     <main class="site-main ">
 
+        
 
+   <!--  ======================== head carosol Area ==============================  -->
+   <section class="text_container">
 
-
-        <!--  ======================== head carosol Area ==============================  -->
-        <section class="text_container">
-
-            <div class="container">
-                <div>
-                    <div class="client row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 client-img hero-image">
-                            <p class="hero_para">A single idea changes a whole society in the same way a single code is
-                                changing our
-                                society.</p>
-                            <p class="hero_para">My love for science comes from reading science fiction, from my school
-                                library. </p>
+    <div class="container">
+        <div>
+            <div class="client row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 client-img hero-image">
+                        <p class="hero_para">A single idea changes a whole society in the same way a single code is
+                            changing our
+                            society.</p>
+                        <p class="hero_para">My love for science comes from reading science fiction, from my school
+                            library. </p>
+                    
+                    <div class="d-sm-flex justify-content-center">
+                        <div class="container d-flex justify-content-center" style="overflow:auto">
+                            <img id="img" />
+                            
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="btn-submit">
+                            <button type="submit"  id="SLIDE" class="btn btn-success float-right">slide</button>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 
-        </section>
-        <!--  ======================== head carosul Area ==============================  -->
+
+</section>
+<!--  ======================== head carosul Area ==============================  -->
+
 
 
 
@@ -590,26 +603,66 @@
             <div class="container subscribe">
                 <div class="row">
                     <div class="col-lg-12 text-center subscribe-title">
-                        <h4 class="text-uppercase">Get Update From anywhere</h4>
-                        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
-                            consequuntur.</p>
+                        <h4 class="text-uppercase">Leave Feedback on my Website</h4>
+                        <p class="para">To a student who is continually improving himself.</p>
                     </div>
                 </div>
+
+                
+        <!--- 
+                                            name and email 
+
+
                 <div class="d-sm-flex justify-content-center">
                     <form class="w-50">
                         <div class="row d-flex flex-row flex-wrap">
+
+                            <div class="col input-textbox">
+                                <input type="text" id="txtemail" class="form-control" placeholder="Name">
+                            </div>
+
                             <div class="col input-textbox">
                                 <input type="text" id="txtemail" class="form-control" placeholder="Email">
                             </div>
                             <div class="col">
                                 <div class="btn-submit">
-                                    <button type="submit" class="btn btn-success float-right">Subscribe</button>
+                                    <button type="submit" class="btn btn-success float-right">submit</button>
                                 </div>
                             </div>
                         </div>
                     </form>
+                    
                 </div>
+
+
+        
+                                                comment -->
+
+                  
+                  
+                  
+                                                <div class="d-sm-flex justify-content-center">
+          
+                                                    <div class="row d-flex flex-row flex-wrap">
+                                                        <div class="col input-textbox">
+                                                            <input  id="name-text"  placeholder="Leave Any Comment "/>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="btn-submit">
+                                                                <button type="submit"  id="button" class="btn btn-success float-right">Comment</button>
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <p></p>
+                                                          <p class="para">Customer Comments:</p>
+                                                          <p ><ul class="para" id="list"></ul></p>
+                                                        </div>
+                                                    </div>
+                                                
+                                            </div>
+
             </div>
+
         </section>
         <!--  ========================== End Subscribe me Area ============================  -->
 
@@ -652,41 +705,8 @@
 
     <!--  custom and Bootstrap js file  -->
 
-    
 
-    <script>
-    
-//create a variable to monitor the input checkbox
-const colorSwitch = document.getElementById("input-color-switch");
-
-//when the input is clicked verify the state of the checkbox
-colorSwitch.addEventListener("click", checkMode);
-
-//1. see which state the checkbox is in
-//2. if it is checked enable the dark mode by adding the class
-//3. if it is not checked remove dark mode by removing the class
-function checkMode() {
-  console.log("checking...");
-  if (colorSwitch.checked) {
-    console.log("dark on");
-    darkModeOn();
-  } else {
-    console.log("dark off");
-    darkModeOff();
-  }
-}
-
-function darkModeOn() {
-  document.body.classList.add("dark-mode");
-}
-
-function darkModeOff() {
-  document.body.classList.remove("dark-mode");
-}
-
-
-    
-    </script>
+    <script src="script.js"></script>
 
 </body>
 
