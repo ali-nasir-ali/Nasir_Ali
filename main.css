@@ -97,8 +97,12 @@
 
 
 
-/*            head carosol Area    */
+/*            head carosol Area    and   message area   */
 /* Container holding the image and the text */
+
+
+
+
 
 .site-main .text_container .hero-image {
 
@@ -466,7 +470,7 @@ footer.footer-area .social a:hover>i {
     box-shadow: var(--box-shadow);
 }
 
-p.para {
+p.para , ul.para{
     color: var(--text-color);
     font: normal 500 16px/ 25px var(--roboto);
 }
