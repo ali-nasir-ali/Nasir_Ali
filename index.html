@@ -31,11 +31,18 @@
                 <a class="navbar-brand" href="#"><img
                         src="https://images.pexels.com/photos/5689733/pexels-photo-5689733.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
                         width="100" height="50" alt="logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
+                        
+                       
 
-                <div class="collapse navbar-collapse justify-content-center" aria-label=" Main Site Links"
+                        <button  id="hamburger" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            
+                            <div id="menuToggle"> <span></span><span></span><span></span> </div>
+                            <!-- 
+                                <span id="NavBurger" class="navbar-toggler-icon"></span>
+                                <span id="NavBurger"><i class="fa fa-bars" aria-hidden="true"></i></span> -->
+                        </button>
+
+                <div class="collapse navbar-collapse justify-content-center" aria-label="Main Site Links"
                     id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item ">
@@ -64,18 +71,20 @@
 
            <!--     light/dark mode container -->
                           <li class="nav-item ">
-                          <div class="wrapper-color-switch nav-link" >
-                            <input type="checkbox" id="input-color-switch">
-                            <label for="input-color-switch" class="color-switch">
-                              <div class="color-switch-toggle"></div>
-                            </label>
-                          </div>
+                            <div class="wrapper-color-switch nav-link" >
+                                <input type="checkbox" id="input-color-switch">
+                                <label for="input-color-switch" class="color-switch">
+                                  <div class="color-switch-toggle"></div>
+                                </label>
+                              </div>
                         </li>
 
 
 
                     </ul>
+                    
                 </div>
+                
             </nav>
         </div>
     </header>
@@ -714,7 +723,7 @@
 
     <!--  custom and Bootstrap js file  -->
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
     
     <script src="script.js"></script>
