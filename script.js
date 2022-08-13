@@ -100,11 +100,18 @@ function backToTop() {
 
 
 
-                                   //     Dark Mode Script 
+                                   //     close burger Script 
 
+                                   $('.hamburger').on('click', function () {
+                                    $('.menu').addClass('open');
+                                  });
+                                  
+                                  $( '.menu a' ).on("click", function(){
+                                    $('.menu').removeClass('open');
+                                  });
+                                   
 
-
-                                   //   end  Dark Mode Script 
+                                   //   end  close burger Script 
 
 
 
@@ -155,6 +162,18 @@ function backToTop() {
                            
 
                                    //   end  comments Script 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
