@@ -11,11 +11,12 @@ https://soft-cobbler-bce376.netlify.app/
 --------------------------------------------------------------------------------------------------------
 
 
-                                       Awsome list for learning JavaScript :
+                                       Awsome list for learning JavaScript
 
 
 
 BOOKS : 
+
 
 https://github.com/faysalahammedchowdhury01/js-all-you-need-to-know/
 
