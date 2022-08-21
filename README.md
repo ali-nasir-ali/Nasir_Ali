@@ -25,6 +25,21 @@ https://www.w3schools.com/js/default.asp
 
 https://javascript.info/
 
+
+
+YOUTUBE : 
+
+- Programming with Mosh
+https://www.youtube.com/playlist?list=PLTjRvDozrdlxEIuOBZkMAK5uiqp8rHUax
+
+
+https://www.youtube.com/watch?v=XUSHH0E-7zk&list=PLTjRvDozrdlydy3uUBWZlLUTNpJSGGCEm
+
+
+
+
+
+
 https://github.com/Awesome-Java-Script
 
 https://github.com/vibracode/javascript-source
@@ -38,9 +53,6 @@ https://github.com/Asabeneh/30-Days-Of-JavaScript
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 
 
-https://www.youtube.com/playlist?list=PLTjRvDozrdlxEIuOBZkMAK5uiqp8rHUax
-
-https://www.youtube.com/watch?v=XUSHH0E-7zk&list=PLTjRvDozrdlydy3uUBWZlLUTNpJSGGCEm
 
 https://github.com/micromata/awesome-javascript-learning
 
