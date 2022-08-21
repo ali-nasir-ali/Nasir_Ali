@@ -11,6 +11,20 @@ https://soft-cobbler-bce376.netlify.app/
 
 Awsome list for learning JavaScript :
 
+
+
+BOOKS : 
+
+https://github.com/faysalahammedchowdhury01/js-all-you-need-to-know/tree/master/02.chapter-two
+
+
+Website learnig :
+
+
+https://www.w3schools.com/js/default.asp
+
+https://javascript.info/
+
 https://github.com/Awesome-Java-Script
 
 https://github.com/vibracode/javascript-source
@@ -19,13 +33,10 @@ https://asmen.icopy.site/awesome/awesome-javascript/
 
 https://github.com/Asabeneh/30-Days-Of-JavaScript
 
-https://www.w3schools.com/js/default.asp
 
-https://github.com/faysalahammedchowdhury01/js-all-you-need-to-know/tree/master/02.chapter-two
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 
-https://javascript.info/
 
 https://www.youtube.com/playlist?list=PLTjRvDozrdlxEIuOBZkMAK5uiqp8rHUax
 
