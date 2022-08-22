@@ -8,6 +8,13 @@ On Netlify :
 https://soft-cobbler-bce376.netlify.app/
 
 
+
+--------------------------------------------------------------------------------------------------------
+Roadmap :
+
+https://reallyconfused.co/roadmap/from-html-css-javascript-to-react-developer
+
+
 --------------------------------------------------------------------------------------------------------
 
 
