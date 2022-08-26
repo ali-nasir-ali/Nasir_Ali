@@ -98,3 +98,11 @@ React :
 https://github.com/flexbox/react-native-bootcamp
 
 
+_-------------
+
+Typescript for beginners:
+
+https://github.com/total-typescript/beginners-typescript
+
+
+
