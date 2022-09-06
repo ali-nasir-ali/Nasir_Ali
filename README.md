@@ -25,6 +25,9 @@ https://reallyconfused.co/roadmap/from-html-css-javascript-to-react-developer
 BOOKS : 
 
 
+https://eloquentjavascript.net/      <= Excelent book with terminal on the same place for execution  https://eloquentjavascript.net/code/
+
+
 https://github.com/faysalahammedchowdhury01/js-all-you-need-to-know/
 
 
