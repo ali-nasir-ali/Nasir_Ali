@@ -2,7 +2,7 @@
 My portfolio website 
 
 On Github pages :
-https://anasir514.github.io/Nasir_Ali/
+https://ali-nasir-ali.github.io/Nasir_Ali/
 
 On Netlify :
 https://soft-cobbler-bce376.netlify.app/
