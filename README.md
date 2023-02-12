@@ -108,4 +108,16 @@ Typescript for beginners:
 https://github.com/total-typescript/beginners-typescript
 
 
+--------------------------------------------------------------------------------------------------------
+
+How to make one header and footer and link them to multiply the pages of the website : 
+
+https://github.com/ali-nasir-ali/JS_multi-page-header-footer_template/
+
+https://www.youtube.com/watch?v=j5Sl6vx_l1s
+
+https://css-tricks.com/an-introduction-to-web-components/
+
+https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements
+
 
