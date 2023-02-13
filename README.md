@@ -112,7 +112,19 @@ https://github.com/total-typescript/beginners-typescript
 
 How to make one header and footer and link them to multiply the pages of the website : 
 
+
+## Freecodeacademy link with deatlied explanation
+
+https://www.freecodecamp.org/news/reusable-html-components-how-to-reuse-a-header-and-footer-on-a-website/
+
+
+## lijnk to my github with some quick examples
 https://github.com/ali-nasir-ali/JS_multi-page-header-footer_template/
+
+
+
+
+## othger recources
 
 https://www.youtube.com/watch?v=j5Sl6vx_l1s
 
